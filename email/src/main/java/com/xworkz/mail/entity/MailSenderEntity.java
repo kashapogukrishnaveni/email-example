@@ -20,8 +20,8 @@ public class MailSenderEntity implements Serializable {
 	static Logger logger = Logger.getLogger(MailSenderEntity.class);
 
 	@Id
-	@GenericGenerator(name = "madhu", strategy = "increment")
-	@GeneratedValue(generator = "madhu")
+	@GenericGenerator(name = "kittu", strategy = "increment")
+	@GeneratedValue(generator = "kittu")
 	@Column(name = "id")
 	private int id;
 	@Column(name = "emailId")
